@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    font-family: 'Lucida Sans';
+}
+
+.barra{
+    width: 90%;
+    height: 10px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.nombre{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carne{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table.datos{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table.datos td{
+
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+
+}
+
+table.maxmin{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    text-align: center;
+}
+
+table.maxmin td {
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+table.maxmin td table{
+    border-collapse: collapse;
+}
+
+table.maxmin td table.minimo td{
+    border-collapse: collapse;
+    border: black 4px solid;    
+    text-align: center;
+}
+
+table.maxmin td table.minimo td.titulo{
+    background-color: gray;
+    font-weight: bold;
+}
+
+table.maxmin td table.maximo td.titulo{
+    background-color: gray;
+    font-weight: bold;
+}
+
+table.maxmin td table.maximo td{
+    border-collapse: collapse;
+    border: black 4px solid;
+    text-align: center;
+}
+
+table.dinicio{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+}
+
+table.dinicio td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-collapse: collapse;
+    border: black 4px solid;    
+    text-align: center;
+}
+
+table.dinicio td.titulo{
+    background-color: gray;
+    font-weight: bold;
+}
